@@ -6,6 +6,7 @@ class Program {
         int computerChoice;
         Random rand = new Random();
 
-        Console.writeLine();
+        Console.writeLine("Please choose Rock, Paper, or Scissors.");
+        String userChoice = Console.readLine();
     }
 }
